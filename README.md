@@ -16,6 +16,8 @@ Créer une application Web JEE basée sur Spring MVC, Thymeleaf et Spring Data J
    - Créer un nouveau projet Spring Boot.
    - Ajouter les dépendances nécessaires pour Spring MVC, Thymeleaf et Spring Data JPA dans le fichier `pom.xml`.
      ![image](https://github.com/ducloser90/SD_Activite3/assets/167253342/c6f3e1fc-72ff-4d7b-b527-632ca2e7a9c0)
+     ![image](https://github.com/ducloser90/SD_Activite3/assets/167253342/87bc59e9-ee3b-48e7-95c3-5ff358b99495)
+
 
 2. **Création de l'entité Patient :**
    - Définir l'entité `Patient` avec les attributs suivants : id, nom, date de naissance, score, malade.
