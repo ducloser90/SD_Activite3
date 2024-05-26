@@ -37,7 +37,10 @@ Créer une application Web JEE basée sur Spring MVC, Thymeleaf et Spring Data J
   
 ### Objectifs Réalisés
 
-Affichage des patients :
+- **Affichage des patients :**
+
+![4](https://github.com/ducloser90/SD_Activite3/assets/167253342/acafcd50-9a65-4983-b5fd-a549eb003430)
+
 
 Pagination :
 
