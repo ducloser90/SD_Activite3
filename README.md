@@ -57,7 +57,7 @@ Créer une application Web JEE basée sur Spring MVC, Thymeleaf et Spring Data J
 
 - **Améliorations supplémentaires :**
 
-![15](https://github.com/ducloser90/SD_Activite3/assets/167253342/15ccdb7d-5ee3-41e9-9387-a6bad4ec8f34)
+![14](https://github.com/ducloser90/SD_Activite3/assets/167253342/bcdbe1bd-e1ae-40af-9e91-3383a0196cde)
 
 
 
@@ -71,10 +71,18 @@ Créer une page template et implémenter la validation des formulaires.
 1. **Création d'une page template :**
    - Définir une structure de page commune (header, footer, menu) dans un template Thymeleaf.
 
+     ![15](https://github.com/ducloser90/SD_Activite3/assets/167253342/9500b090-05a4-45c8-bfb3-38a6f6b95d0f)
+
+     ![16](https://github.com/ducloser90/SD_Activite3/assets/167253342/a9c2e37c-bae7-4670-9163-25869b2ebb4d)
+
+
 2. **Validation des formulaires :**
    - Utiliser les annotations de validation (`@NotNull`, `@Size`, `@Email`, etc.) sur l'entité `Patient`.
    - Configurer la validation dans les contrôleurs.
    - Afficher les messages d'erreur de validation dans les vues Thymeleaf.
+
+     ![18](https://github.com/ducloser90/SD_Activite3/assets/167253342/b76bc491-76f6-427f-8e2f-69732c08343c)
+
 
 ## Partie 3 : Sécurité avec Spring Security
 ### Objectif
