@@ -125,17 +125,22 @@ L'authentification JDBC permet de configurer l'authentification en utilisant une
    - Configurer la source de données dans application.properties.
    - Utiliser Spring Security pour authentifier les utilisateurs à partir de la base de données.
      ![image](https://github.com/ducloser90/SD_Activite3/assets/167253342/11315ebb-f6b2-4896-a2b6-02ea8a1b70a3)
-     ![image](https://github.com/ducloser90/SD_Activite3/assets/167253342/6794934b-0f8b-4d16-886e-b906843662d9)
+     ![26](https://github.com/ducloser90/SD_Activite3/assets/167253342/7f298858-7c34-4eed-b25b-106f78fd9d60)
+
 
 
 
 #### UserDetails Service
 [Vidéo de référence](https://www.youtube.com/watch?v=RTiS9ygyYs4)
 
+UserDetailsService est une interface de Spring Security qui permet une gestion personnalisée des utilisateurs. Cette méthode est idéale lorsque la logique de récupération des utilisateurs est complexe ou que des sources de données multiples sont utilisées.
+
 1. **Implémenter UserDetailsService :**
    - Créer une classe qui implémente `UserDetailsService`.
    - Charger les détails de l'utilisateur à partir de la base de données.
    - Configurer Spring Security pour utiliser cette implémentation de `UserDetailsService`.
+     ![27](https://github.com/ducloser90/SD_Activite3/assets/167253342/d2314ee3-4046-4357-85cf-aef7feb87593)
+
 
 ## Références
 - [Vidéo Partie 1](https://www.youtube.com/watch?v=jDm-q-jEbiA)
