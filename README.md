@@ -85,15 +85,34 @@ Créer une page template et implémenter la validation des formulaires.
 
 
 ## Partie 3 : Sécurité avec Spring Security
+
+Nous explorons différentes méthodes d'authentification fournies par Spring Security, un framework puissant pour la sécurisation des applications Spring. Cette partie couvre trois méthodes d'authentification : InMemory Authentication, JDBC Authentication, et l'utilisation de UserDetailsService. Chacune de ces méthodes offre des avantages spécifiques selon le contexte d'utilisation.
+
 ### Objectif
 Implémenter la sécurité de l'application en utilisant Spring Security.
+
+**Configuration par Défaut de Spring Security**
+
+Lors de l'ajout de la dépendance spring-boot-starter-security au projet, Spring Security est automatiquement activé avec une configuration de sécurité par défaut, ce qui inclut une interface d'authentification par formulaire standard.
+
+![21](https://github.com/ducloser90/SD_Activite3/assets/167253342/243bb239-e386-4eb0-9cab-e37ae84a88bb)
+
+Pour personnaliser cette configuration, il est nécessaire de créer une classe de configuration de sécurité.
 
 #### InMemory Authentication
 [Vidéo de référence](https://www.youtube.com/watch?v=7VqpC8UD1zM)
 
+Elle permet de configurer des utilisateurs directement dans le code source de l'application. Cette méthode est particulièrement utile pour les phases de développement ou de test rapide, car elle ne nécessite pas de base de données externe.
+
 1. **Configurer l'authentification InMemory :**
    - Ajouter les dépendances Spring Security dans le fichier `pom.xml`.
    - Configurer les utilisateurs et rôles en mémoire dans le fichier de configuration Spring Security.
+
+     ![image](https://github.com/ducloser90/SD_Activite3/assets/167253342/3d3e83b2-3729-454d-99a7-bb61aabfb740)
+
+     ![22](https://github.com/ducloser90/SD_Activite3/assets/167253342/d0503d61-c5d9-4943-8ee0-b3c15af0e7f8)
+
+
 
 #### JDBC Authentication
 [Vidéo de référence](https://www.youtube.com/watch?v=Haz3wLiQ5-0)
