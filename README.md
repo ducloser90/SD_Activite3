@@ -34,6 +34,18 @@ Créer une application Web JEE basée sur Spring MVC, Thymeleaf et Spring Data J
 
 6. **Création des vues Thymeleaf :**
    - Créer des templates Thymeleaf pour afficher la liste des patients, les formulaires de recherche et de suppression, etc.
+  
+### Objectifs Réalisés
+
+Affichage des patients :
+
+Pagination :
+
+Recherche des patients :
+
+Suppression d'un patient :
+
+Améliorations supplémentaires :
 
 ## Partie 2 : Création d'une page template et validation des formulaires
 [Vidéo de référence](https://www.youtube.com/watch?v=eoBE745lDE0)
