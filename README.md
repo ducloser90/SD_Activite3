@@ -136,9 +136,9 @@ L'authentification JDBC permet de configurer l'authentification en utilisant une
 UserDetailsService est une interface de Spring Security qui permet une gestion personnalisée des utilisateurs. Cette méthode est idéale lorsque la logique de récupération des utilisateurs est complexe ou que des sources de données multiples sont utilisées.
 
 1. **Implémenter UserDetailsService :**
-   - Créer une classe qui implémente `UserDetailsService`.
+   - Créer une classe qui implémente `AccountService`.
    - Charger les détails de l'utilisateur à partir de la base de données.
-   - Configurer Spring Security pour utiliser cette implémentation de `UserDetailsService`.
+   - Configurer Spring Security pour utiliser cette implémentation de `AccountService`.
      ![27](https://github.com/ducloser90/SD_Activite3/assets/167253342/d2314ee3-4046-4357-85cf-aef7feb87593)
 
 
