@@ -41,14 +41,25 @@ Créer une application Web JEE basée sur Spring MVC, Thymeleaf et Spring Data J
 
 ![4](https://github.com/ducloser90/SD_Activite3/assets/167253342/acafcd50-9a65-4983-b5fd-a549eb003430)
 
+- **Pagination :**
 
-Pagination :
+![9](https://github.com/ducloser90/SD_Activite3/assets/167253342/4e182b3d-54cd-4e6c-aac2-0599819a6f17)
 
-Recherche des patients :
 
-Suppression d'un patient :
+- **Recherche des patients :**
 
-Améliorations supplémentaires :
+![12](https://github.com/ducloser90/SD_Activite3/assets/167253342/c70bd73b-0316-475f-8f3f-c1ca7f4567e7)
+
+- **Suppression d'un patient :**
+
+![13](https://github.com/ducloser90/SD_Activite3/assets/167253342/ee3d2f72-012b-4b80-9685-e75a70f19384)
+
+
+- **Améliorations supplémentaires :**
+
+![15](https://github.com/ducloser90/SD_Activite3/assets/167253342/15ccdb7d-5ee3-41e9-9387-a6bad4ec8f34)
+
+
 
 ## Partie 2 : Création d'une page template et validation des formulaires
 [Vidéo de référence](https://www.youtube.com/watch?v=eoBE745lDE0)
