@@ -64,6 +64,7 @@ Créer une application Web JEE basée sur Spring MVC, Thymeleaf et Spring Data J
 ## Partie 2 : Création d'une page template et validation des formulaires
 [Vidéo de référence](https://www.youtube.com/watch?v=eoBE745lDE0)
 
+
 ### Objectif
 Créer une page template et implémenter la validation des formulaires.
 
@@ -117,9 +118,16 @@ Elle permet de configurer des utilisateurs directement dans le code source de l'
 #### JDBC Authentication
 [Vidéo de référence](https://www.youtube.com/watch?v=Haz3wLiQ5-0)
 
+L'authentification JDBC permet de configurer l'authentification en utilisant une base de données relationnelle. Cette méthode est plus adaptée pour les environnements de production où les utilisateurs sont gérés de manière centralisée dans une base de données.
+
 1. **Configurer l'authentification JDBC :**
-   - Configurer une source de données pour les utilisateurs et les rôles.
+   - Ajouter les dépendances Spring Security et JDBC au fichier pom.xml.
+   - Configurer la source de données dans application.properties.
    - Utiliser Spring Security pour authentifier les utilisateurs à partir de la base de données.
+     ![image](https://github.com/ducloser90/SD_Activite3/assets/167253342/11315ebb-f6b2-4896-a2b6-02ea8a1b70a3)
+     ![image](https://github.com/ducloser90/SD_Activite3/assets/167253342/6794934b-0f8b-4d16-886e-b906843662d9)
+
+
 
 #### UserDetails Service
 [Vidéo de référence](https://www.youtube.com/watch?v=RTiS9ygyYs4)
